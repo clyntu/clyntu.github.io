@@ -1,7 +1,29 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
-    font-size: 79px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: bold;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: normal;
+    font-size: 16px;
 }
 
 .navbar-toggler {
