@@ -1,5 +1,5 @@
 .card {
-    color: #F8BAC7;
+    color: transparent;
 }
 
 .card-img-overlay:hover{
@@ -9,9 +9,9 @@
     transition: 0.8s;
  }
 
-.row {
-    display: flex;
-    justify-content: flex-start;
+.nav-link:hover {
+    color:black !important;
+    opacity: 0.95;
 }
 
 a, a:hover, a:focus, a:active {
@@ -22,18 +22,22 @@ a, a:hover, a:focus, a:active {
 h1 {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
-    font-size: 46px;
+    font-size: 34px;
 }
 
 h2 {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 h3 {
     line-height: 0%;
     font-size: 1.5rem;
+}
+
+.card-text {
+    line-height: 15%;
 }
 
 p {
@@ -45,4 +49,3 @@ p {
 .navbar-toggler {
     border: 0px;
 }
-
