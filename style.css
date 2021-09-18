@@ -1,13 +1,26 @@
+.navbar {
+    padding: 0px;
+}
+
+.col-md-6 {
+    padding-top: 20px;
+}
+
 .card {
     color: transparent;
 }
 
-.card-img-overlay:hover{
-    background-color:lightseagreen;
-    color:white;
-    opacity: 0.6;
-    transition: 0.8s;
+.card-img-overlay {
+    background: transparent;
+    transition: background-color 1s ease-out;
+}
+
+ .card-img-overlay:hover {
+    color: white;
+    background-color:hsla(247, 32%, 47%, 0.3);
+    cursor: pointer;
  }
+
 
 .nav-link:hover {
     color:black !important;
